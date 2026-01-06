@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Work Sans';
 }
+/* Header Section Started */
 .header-section {
      background: url(./images/banner/banner3.png);
     height: 110vh;
@@ -50,3 +51,32 @@
     color: #fff;
     transition: 0.3s;
 }
+/* Header Section Ended */
+/* Banner Section Started */
+.banner-section {
+    padding-top: 130px;
+}
+.banner-content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.f-icon {
+    color: #16D887;
+}
+.banner-detail {
+   padding-top: 150px;
+}
+.banner-detail h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.banner-img img {
+    width: 600px;
+}
+.banner-detail p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+/* Banner Section Ended */
