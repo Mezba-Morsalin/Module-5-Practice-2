@@ -138,3 +138,66 @@
 }
 /* Cta Section Ended */
 /* Main Section Ended */
+/* Footer Section Started */
+.footer-section {
+    margin-top: 130px;
+    background-color: #151414;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+     padding-top: 100px;
+}
+.footer-content {
+    width: 40%;
+}
+.footer-content h2 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.footer-content p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+.footer-icon a {
+    margin-right: 15px;
+}
+.footer-form h3 {
+    color: #ffffff;
+    font-size: 25px;
+    margin: 0 0 30px 0 ;
+}
+input[type="email"] {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    outline: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 10px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+input[type="email"]::placeholder {
+    color: #ffffff;
+}
+.btn2 {
+    background-color:#005FAC;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn2:hover {
+    background-color: #ffffff;
+    color: #005FAC;
+    transition: 0.3s;
+    border: 1px solid #fff;
+}
+/* Footer Section Ended */
