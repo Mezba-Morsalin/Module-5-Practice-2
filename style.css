@@ -6,7 +6,7 @@
 }
 /* Header Section Started */
 .header-section {
-     background: url(./images/banner/banner3.png);
+    background: url(./images/banner/banner3.png);
     height: 110vh;
     background-size: cover;
     background-position: center;
@@ -78,5 +78,38 @@
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 10px;
+    color: #474747;
 }
 /* Banner Section Ended */
+/* Card Section Started */
+.card-section {
+    padding-top: 100px;
+}
+.card-heading {
+    text-align: center;
+}
+.card-heading h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.card-container {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-content {
+    text-align: center;
+}
+.card-content img {
+    max-width: 100%;
+    margin-bottom: 25px;
+}
+.card-content h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.card-content p {
+    font-size: 25px;
+    color: #474747;
+}
