@@ -9,6 +9,7 @@
     background: url(./images/banner/banner3.png);
     height: 110vh;
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
 }
 .container {
@@ -113,3 +114,27 @@
     font-size: 25px;
     color: #474747;
 }
+/* Card Section Ended */
+/* Cta Section Started*/
+.cta-container {
+    margin-top: 130px;
+    height: 280px;
+    border-radius: 8px;
+    background-image: url("./images/gradient1.png"), url("./images/watch.png");
+    background-size: cover, cover;
+    background-position: center, center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.cta-detail {
+    width: 50%;
+    padding-left: 50px;
+}
+.cta-detail h1 {
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+/* Cta Section Ended */
+/* Main Section Ended */
